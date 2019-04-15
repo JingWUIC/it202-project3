@@ -137,9 +137,11 @@ function checkKey(e) {
     }
     else if (e.keyCode == '37') {
        // left arrow
+       player.x -= player.speed;
     }
     else if (e.keyCode == '39') {
        // right arrow
+       player.x += player.speed;
     }
 
 }
